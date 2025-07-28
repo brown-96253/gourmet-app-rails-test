@@ -1,8 +1,12 @@
-// app/shop/[id]/page.jsx
+'use client';
+
+import { useParams, useRouter } from 'next/navigation';
 import shops from '@/src/data/shops.json';
 
-export default function ShopDetail({ params }) {
-  const shop = shops.find((s) => s.id === parseInt(params.id));
+export default function ShopDetail() {
+  const router = useRouter();
+  const params = useParams();
+  const shop = shops.find((s) => s.id === Number(params.id));
 
   if (!shop) return <div>お店が見つかりません</div>;
 
@@ -13,6 +17,12 @@ export default function ShopDetail({ params }) {
       <p className="text-sm text-gray-600 mb-1">{shop.area}・{shop.genre}</p>
       <p className="text-yellow-600 font-semibold mb-2">★ {shop.rating}</p>
       <p>{shop.description}</p>
+      <button
+        onClick={() => router.back()}
+        className="mb-4 px-4 py-2 bg-gray-300 rounded hover:bg-gray-400"
+      >
+        ← 一覧に戻る
+      </button>
     </div>
   );
 }

@@ -1,19 +1,20 @@
 # gourmet-app
 
-これはNext.jsとTailwind CSSで作った、飲食店レビューアプリです。
-現在、ReactやTypeScriptなどの技術を学びながら、機能やデザインを拡張中です。
+Next.js と Tailwind CSS で構築した、シンプルな飲食店レビューアプリです。  
+React や TypeScript を学びながら、機能・UI・UX を少しずつ拡張中です。
 
 ## 主な機能
 
-- 飲食店リスト
-- お店の詳細表示
-- Tailwind CSSによるデザイン調整
-- JSONデータを使った一覧表示
-- Next.jsのApp Routerを使ったページ遷移
+- 飲食店一覧表示（JSON データを元に表示）
+- 店舗詳細ページ（App Routerによる動的ルーティング）
+- Tailwind CSSによるレスポンシブデザイン調整
+- エリア・ジャンル・店舗名による検索・フィルター機能
+- お気に入り登録（localStorage に保存）
+- 戻るボタン（詳細ページから一覧へ）
 
-## 技術スタック
+## 使用技術
 
-- Next.js
+- Next.js（App Router / CSR）
 - React
 - TypeScript
 - Tailwind CSS
@@ -21,7 +22,9 @@
 
 ## 今後の予定
 
-- 検索機能
+- レビュー投稿フォーム
+- テストコード
+- レスポンシブ微調整・アクセシビリティ改善
 
 ## 起動方法
 
