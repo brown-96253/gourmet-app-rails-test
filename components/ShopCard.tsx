@@ -2,7 +2,16 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
-export default function ShopCard({ shop }) {
+type Shop = {
+  id: string;
+  name: string;
+  area: string;
+  genre: string;
+  image: string;
+  description: string;
+};
+
+export default function ShopCard({ shop }: { shop: Shop }) {
   const [isFavorite, setIsFavorite] = useState(false);
 
   useEffect(() => {
