@@ -1,17 +1,5 @@
 "use client";
-import Link from "next/link";
-import { useState, useEffect } from "react";
-
-type Shop = {
-  id: number;
-  name: string;
-  genre: string;
-  rating: number;
-  address: string;
-  image: string;
-  description: string;
-  area: string;
-};
+import React, { useState, useEffect } from "react";
 
 export default function ShopCard({ shop }: { shop: Shop }) {
   const [isFavorite, setIsFavorite] = useState(false);
@@ -24,14 +12,14 @@ export default function ShopCard({ shop }: { shop: Shop }) {
     }
   }, [shop.id]);
 
-  const toggleFavorite = (e) => {
+  const toggleFavorite = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     const stored = localStorage.getItem("favorites");
     const favIds = stored ? JSON.parse(stored) : [];
 
     let updatedFavs;
     if (favIds.includes(shop.id)) {
-      updatedFavs = favIds.filter((id) => id !== shop.id);
+      updatedFavs = favIds.filter((id: number) => id !== shop.id);
     } else {
       updatedFavs = [...favIds, shop.id];
     }
