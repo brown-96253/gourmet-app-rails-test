@@ -3,12 +3,14 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 
 type Shop = {
-  id: string;
+  id: number;
   name: string;
-  area: string;
   genre: string;
+  rating: number;
+  address: string;
   image: string;
   description: string;
+  area: string;
 };
 
 export default function ShopCard({ shop }: { shop: Shop }) {
