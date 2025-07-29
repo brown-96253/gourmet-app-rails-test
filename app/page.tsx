@@ -23,9 +23,9 @@ export default function Home() {
   });
 
   return (
-    <div className="p-4">
+    <div className="p-30">
       {/* フィルターUI */}
-      <div className="flex flex-col sm:flex-row sm:items-end gap-4 mb-6">
+      <div className="flex flex-col sm:flex-row sm:items-end gap-4 mb-10">
         <div>
           <label htmlFor="area" className="block font-bold mb-1">
             エリア:
@@ -34,7 +34,7 @@ export default function Home() {
             id="area"
             value={selectedArea}
             onChange={(e) => setSelectedArea(e.target.value)}
-            className="border rounded px-2 py-1 w-full"
+            className="border bg-white/60 border-gray-100 rounded px-2 py-2 w-full"
           >
             {areas.map((area) => (
               <option key={area} value={area}>
@@ -52,7 +52,7 @@ export default function Home() {
             id="genre"
             value={selectedGenre}
             onChange={(e) => setSelectedGenre(e.target.value)}
-            className="border rounded px-2 py-1 w-full"
+            className="border bg-white/60 border-gray-100 rounded px-2 py-2 w-full"
           >
             {genres.map((genre) => (
               <option key={genre} value={genre}>
@@ -61,7 +61,7 @@ export default function Home() {
             ))}
           </select>
         </div>
-
+        
         <div className="flex-1">
           <label htmlFor="search" className="block font-bold mb-1">
             店舗名で検索:
@@ -69,10 +69,10 @@ export default function Home() {
           <input
             type="text"
             id="search"
-            placeholder="例：ラーメン一郎"
+            placeholder="例：カフェ"
             value={searchKeyword}
             onChange={(e) => setSearchKeyword(e.target.value)}
-            className="border rounded px-2 py-1 w-full"
+            className="border bg-white/60 border-gray-100 rounded px-2 py-2 w-full"
           />
         </div>
       </div>

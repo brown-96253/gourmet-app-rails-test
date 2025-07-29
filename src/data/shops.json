@@ -24,7 +24,7 @@
     "name": "pigment",
     "genre": "カフェ",
     "rating": 4.9,
-    "address": "愛知県名古屋市中区錦２丁目５−２５ 袋町ビル ３F",
+    "address": "愛知県名古屋市中区錦2丁目5−25 袋町ビル 3F",
     "image": "/images/3.jpg",
     "description": "贅沢ランチが楽しめる大人カフェ",
     "area" : "名古屋市"
@@ -34,7 +34,7 @@
     "name": "TT\" a Little Knowledge Store",
     "genre": "カフェ",
     "rating": 5.0,
-    "address": "愛知県名古屋市千種区星が丘元町１６−５０ 星が丘テラス EAST4F",
+    "address": "愛知県名古屋市千種区星が丘元町16−50 星が丘テラス EAST4F",
     "image": "/images/4.jpg",
     "description": "静かに楽しむ大人の星ヶ丘ランチ",
     "area" : "名古屋市"
@@ -44,7 +44,7 @@
     "name": "アロハカフェ",
     "genre": "カフェ",
     "rating": 3.0,
-    "address": "愛知県名古屋市中区栄３丁目３−１ マルエイガレリア 3階",
+    "address": "愛知県名古屋市中区栄3丁目3−1 マルエイガレリア 3階",
     "image": "/images/5.jpg",
     "description": "ハワイ気分でほっとひと息",
     "area" : "名古屋市"
@@ -54,9 +54,9 @@
     "name": "ル・ジャルダン",
     "genre": "カフェ",
     "rating": 4.0,
-    "address": "",
+    "address": "愛知県名古屋市千種区千種通7-24 吹上ヒストリービルディング 7F",
     "image": "/images/6.jpg",
-    "description": "",
+    "description": "おしゃれなオープンテラスでアフタヌーンティーが楽しめる",
     "area" : "名古屋市"
   },
   {
@@ -64,7 +64,7 @@
     "name": "ZenZero 名駅店",
     "genre": "カフェ",
     "rating": 4.0,
-    "address": "愛知県名古屋市中村区名駅４丁目１０−２２ 琥珀ビル ２F",
+    "address": "愛知県名古屋市中村区名駅4丁目10−22 琥珀ビル 2F",
     "image": "/images/7.jpg",
     "description": "名駅近くのおしゃれイタリアン",
     "area" : "名古屋市"
@@ -74,7 +74,7 @@
     "name": "Twilightcoffee sakae",
     "genre": "カフェ",
     "rating": 4.0,
-    "address": "〒460-0008 愛知県名古屋市中区栄４丁目４−１ 第3メイトビル 1A号室",
+    "address": "愛知県名古屋市中区栄4丁目4−1 第3メイトビル 1A号室",
     "image": "/images/8.jpg",
     "description": "プリンと珈琲の極上時間",
     "area" : "名古屋市"
@@ -84,7 +84,7 @@
     "name": "ビチェリン MIDLANDSQUARE",
     "genre": "カフェ",
     "rating": 5.0,
-    "address": "〒450-0002 愛知県名古屋市中村区名駅４丁目７−１",
+    "address": "愛知県名古屋市中村区名駅4丁目7−1",
     "image": "/images/9.jpg",
     "description": "名駅で味わう、伝統のチョコレートドリンク。",
     "area" : "名古屋市"
@@ -94,7 +94,7 @@
     "name": "フィユ・ドゥ・ヴァンサンヌ",
     "genre": "カフェ",
     "rating": 4.0,
-    "address": "〒460-0008 愛知県名古屋市中区栄３丁目２３−１４ シティライフ栄",
+    "address": "愛知県名古屋市中区栄3丁目23−14 シティライフ栄",
     "image": "/images/10.jpg",
     "description": "大人の隠れ家カフェ",
     "area" : "名古屋市"
@@ -104,7 +104,7 @@
     "name": "ボン ファム",
     "genre": "カフェ",
     "rating": 4.0,
-    "address": "〒466-0015 愛知県名古屋市昭和区御器所通１丁目１１−１",
+    "address": "愛知県名古屋市昭和区御器所通1丁目11−1",
     "image": "/images/11.jpg",
     "description": "大人女子のくつろぎランチ空間",
     "area" : "名古屋市"
@@ -114,7 +114,7 @@
     "name": "弁天カフェ",
     "genre": "カフェ",
     "rating": 4.0,
-    "address": "〒467-0066 愛知県名古屋市瑞穂区洲山町２丁目30番地2 ロイヤルヤマダビル 1階",
+    "address": "愛知県名古屋市瑞穂区洲山町2丁目30番地2 ロイヤルヤマダビル 1階",
     "image": "/images/12.jpg",
     "description": "川沿いの本格イタリアン",
     "area" : "名古屋市"
@@ -124,7 +124,7 @@
     "name": "西原珈琲店 栄店",
     "genre": "カフェ",
     "rating": 4.0,
-    "address": "〒460-0003 愛知県名古屋市中区錦３丁目１５−２３ 1F",
+    "address": "愛知県名古屋市中区錦3丁目15−23 1F",
     "image": "/images/13.jpg",
     "description": "アンティークな空間で、今日の一杯を楽しむ",
     "area" : "名古屋市"
@@ -134,7 +134,7 @@
     "name": "豆花甘露",
     "genre": "カフェ",
     "rating": 4.0,
-    "address": "〒467-0834 愛知県名古屋市瑞穂区姫宮町２丁目７４−５",
+    "address": "愛知県名古屋市瑞穂区姫宮町2丁目74−5",
     "image": "/images/14.jpg",
     "description": "選べるトッピングで、自分だけの豆花を楽しめる",
     "area" : "名古屋市"
@@ -144,7 +144,7 @@
     "name": "和風ラザニア専門店Y",
     "genre": "カフェ",
     "rating": 4.0,
-    "address": "〒460-0032 愛知県名古屋市中区二の丸１−３ 宗春ゾーン内",
+    "address": "愛知県名古屋市中区二の丸1−3 宗春ゾーン内",
     "image": "/images/15.jpg",
     "description": "チーズとろけるラザニアが楽しめる",
     "area" : "名古屋市"
@@ -154,7 +154,7 @@
     "name": "鯱市 錦通伏見店",
     "genre": "和食",
     "rating": 4.0,
-    "address": "〒460-0003 愛知県名古屋市中区錦２丁目１６−２１ カトレヤ錦ビル",
+    "address": "愛知県名古屋市中区錦2丁目16−21 カトレヤ錦ビル",
     "image": "/images/16.jpg",
     "description": "絶品カレー煮込みうどん",
     "area" : "名古屋市"
@@ -164,9 +164,9 @@
     "name": "まぐろや石亭",
     "genre": "和食",
     "rating": 4.0,
-    "address": "〒466-0027 愛知県名古屋市昭和区阿由知通４丁目１−１",
+    "address": "愛知県名古屋市昭和区阿由知通4丁目1−1",
     "image": "/images/17.jpg",
-    "description": "地元で愛される安心の回らないお寿司ランチ",
+    "description": "地元で愛される回らないお寿司",
     "area" : "名古屋市"
   },
   {
@@ -174,7 +174,7 @@
     "name": "ふくろう",
     "genre": "和食",
     "rating": 4.0,
-    "address": "〒456-0027 愛知県名古屋市熱田区旗屋１丁目６−８",
+    "address": "愛知県名古屋市熱田区旗屋1丁目6−8",
     "image": "/images/18.jpg",
     "description": "やさしい美味しさの串揚げ",
     "area" : "名古屋市"
@@ -184,7 +184,7 @@
     "name": "マイペンライ 伏見店",
     "genre": "和食",
     "rating": 4.8,
-    "address": "〒460-0003 愛知県名古屋市中区錦２丁目１７−２８ １F",
+    "address": "愛知県名古屋市中区錦2丁目17−28 1F",
     "image": "/images/19.jpg",
     "description": "タイの本格スパイスを名古屋で",
     "area" : "名古屋市"
@@ -194,7 +194,7 @@
     "name": "リトルバード",
     "genre": "バー",
     "rating": 4.0,
-    "address": "〒462-0023 愛知県名古屋市昭和区石仏町２丁目６",
+    "address": "愛知県名古屋市昭和区石仏町2丁目6",
     "image": "/images/20.jpg",
     "description": "カクテルが美味しいバー",
     "area" : "名古屋市"
@@ -204,7 +204,7 @@
     "name": "宮きしめん 神宮店",
     "genre": "和食",
     "rating": 5.0,
-    "address": "〒456-0031 愛知県名古屋市熱田区神宮１丁目１−１ 熱田神宮境内 くさなぎ広場",
+    "address": "愛知県名古屋市熱田区神宮1丁目1−1 熱田神宮境内 くさなぎ広場",
     "image": "/images/21.jpg",
     "description": "熱田神宮の境内にあるきしめん",
     "area" : "名古屋市"
@@ -214,7 +214,7 @@
     "name": "狸御殿",
     "genre": "和食",
     "rating": 4.0,
-    "address": "〒466-0033 愛知県名古屋市昭和区台町３丁目５",
+    "address": "愛知県名古屋市昭和区台町3丁目5",
     "image": "/images/22.jpg",
     "description": "素材勝負。季節を味わう鉄板の美味しさ",
     "area" : "名古屋市"
@@ -224,7 +224,7 @@
     "name": "ロッコ",
     "genre": "バー",
     "rating": 4.0,
-    "address": "〒460-0012 愛知県名古屋市中区千代田１丁目１６−１８ エスプリ千代田",
+    "address": "愛知県名古屋市中区千代田1丁目16−18 エスプリ千代田",
     "image": "/images/23.jpg",
     "description": "ナチュラルワインを堪能できるイタリア料理店",
     "area" : "名古屋市"
@@ -234,7 +234,7 @@
     "name": "鯱ひげカフェ あつたnagAya店",
     "genre": "和食",
     "rating": 4.0,
-    "address": "〒456-0031 愛知県名古屋市熱田区神宮３丁目６−５１ あつたnagAya Ａ棟",
+    "address": "愛知県名古屋市熱田区神宮3丁目6−51 あつたnagAya A棟",
     "image": "/images/24.jpg",
     "description": "名物あんかけスパの駅近カフェ",
     "area" : "名古屋市"
@@ -244,7 +244,7 @@
     "name": "parfait de ruelle",
     "genre": "スイーツ",
     "rating": 4.8,
-    "address": "〒460-0011 愛知県名古屋市中区大須３丁目４２−４",
+    "address": "愛知県名古屋市中区大須3丁目42−4",
     "image": "/images/25.jpg",
     "description": "パフェの名店",
     "area" : "名古屋市"
@@ -254,7 +254,7 @@
     "name": "ヴェンキ 久屋大通公園店 / Venchi RAYARD Hisaya-odori Park",
     "genre": "スイーツ",
     "rating": 4.7,
-    "address": "〒460-0003 愛知県名古屋市中区錦３丁目１５−12号先",
+    "address": "愛知県名古屋市中区錦3丁目15−12号先",
     "image": "/images/26.jpg",
     "description": "大人のご褒美ジェラート",
     "area" : "名古屋市"
@@ -264,7 +264,7 @@
     "name": "ペッテゴラ",
     "genre": "スイーツ",
     "rating": 4.0,
-    "address": "〒460-0008 愛知県名古屋市中区栄２丁目１５−１６",
+    "address": "愛知県名古屋市中区栄2丁目15−16",
     "image": "/images/27.jpg",
     "description": "洗練されたパフェ",
     "area" : "名古屋市"
@@ -274,7 +274,7 @@
     "name": "Bar Ka na ta",
     "genre": "アジア料理",
     "rating": 4.0,
-    "address": "〒460-0016 愛知県名古屋市中区橘１丁目１８−２ 第2ムツガビル 1F",
+    "address": "愛知県名古屋市中区橘1丁目18−2 第2ムツガビル 1F",
     "image": "/images/28.jpg",
     "description": "スパイスが程よく効いた奥深い味わいのカレー",
     "area" : "名古屋市"
@@ -284,7 +284,7 @@
     "name": "ロバートタイワンブロンクス",
     "genre": "アジア料理",
     "rating": 4.0,
-    "address": "〒460-0003 愛知県名古屋市中区錦３丁目１７−５ ほぼ栄駅1番出口のれん街",
+    "address": "愛知県名古屋市中区錦3丁目17−5 ほぼ栄駅1番出口のれん街",
     "image": "/images/29.jpg",
     "description": "台湾の雰囲気と美味しい料理を楽しめる",
     "area" : "名古屋市"
@@ -294,7 +294,7 @@
     "name": "金家",
     "genre": "アジア料理",
     "rating": 4.0,
-    "address": "〒460-0008 愛知県名古屋市中区栄３丁目１１−１３ ＧＫビル 1F",
+    "address": "愛知県名古屋市中区栄3丁目11−13 GKビル 1F",
     "image": "/images/30.jpg",
     "description": "本格韓国料理",
     "area" : "名古屋市"
