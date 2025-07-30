@@ -1,0 +1,32 @@
+/* ShopCard.module.css */
+
+.card {
+  position: relative;
+  z-index: 0;
+}
+
+.tape {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  width: 130px;
+  height: 130px;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 1;
+  mix-blend-mode: multiply;
+}
+
+.tapeWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  pointer-events: none;
+}
+
+.tapeImage {
+  opacity: 0.5;
+  object-fit: contain;
+}

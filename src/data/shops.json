@@ -75,7 +75,7 @@
     "genre": "カフェ",
     "rating": 4.0,
     "address": "愛知県名古屋市中区栄4丁目4−1 第3メイトビル 1A号室",
-    "image": "/images/8.jpg",
+    "image": "/images/8-2.jpg",
     "description": "プリンと珈琲の極上時間",
     "area" : "名古屋市"
   },
@@ -175,7 +175,7 @@
     "genre": "和食",
     "rating": 4.0,
     "address": "愛知県名古屋市熱田区旗屋1丁目6−8",
-    "image": "/images/18.jpg",
+    "image": "/images/18-2.jpg",
     "description": "やさしい美味しさの串揚げ",
     "area" : "名古屋市"
   },
@@ -185,7 +185,7 @@
     "genre": "和食",
     "rating": 4.8,
     "address": "愛知県名古屋市中区錦2丁目17−28 1F",
-    "image": "/images/19.jpg",
+    "image": "/images/19-2.jpg",
     "description": "タイの本格スパイスを名古屋で",
     "area" : "名古屋市"
   },
@@ -195,7 +195,7 @@
     "genre": "バー",
     "rating": 4.0,
     "address": "愛知県名古屋市昭和区石仏町2丁目6",
-    "image": "/images/20.jpg",
+    "image": "/images/20-2.jpg",
     "description": "カクテルが美味しいバー",
     "area" : "名古屋市"
   },
@@ -205,7 +205,7 @@
     "genre": "和食",
     "rating": 5.0,
     "address": "愛知県名古屋市熱田区神宮1丁目1−1 熱田神宮境内 くさなぎ広場",
-    "image": "/images/21.jpg",
+    "image": "/images/21-2.jpg",
     "description": "熱田神宮の境内にあるきしめん",
     "area" : "名古屋市"
   },
@@ -225,7 +225,7 @@
     "genre": "バー",
     "rating": 4.0,
     "address": "愛知県名古屋市中区千代田1丁目16−18 エスプリ千代田",
-    "image": "/images/23.jpg",
+    "image": "/images/23-2.jpg",
     "description": "ナチュラルワインを堪能できるイタリア料理店",
     "area" : "名古屋市"
   },
@@ -245,7 +245,7 @@
     "genre": "スイーツ",
     "rating": 4.8,
     "address": "愛知県名古屋市中区大須3丁目42−4",
-    "image": "/images/25.jpg",
+    "image": "/images/25-2.jpg",
     "description": "パフェの名店",
     "area" : "名古屋市"
   },
@@ -285,7 +285,7 @@
     "genre": "アジア料理",
     "rating": 4.0,
     "address": "愛知県名古屋市中区錦3丁目17−5 ほぼ栄駅1番出口のれん街",
-    "image": "/images/29.jpg",
+    "image": "/images/29-2.jpg",
     "description": "台湾の雰囲気と美味しい料理を楽しめる",
     "area" : "名古屋市"
   },
@@ -295,7 +295,7 @@
     "genre": "アジア料理",
     "rating": 4.0,
     "address": "愛知県名古屋市中区栄3丁目11−13 GKビル 1F",
-    "image": "/images/30.jpg",
+    "image": "/images/30-2.jpg",
     "description": "本格韓国料理",
     "area" : "名古屋市"
   }
