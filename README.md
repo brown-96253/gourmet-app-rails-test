@@ -5,7 +5,7 @@ React や TypeScript を学びながら、機能・UI・UX を少しずつ拡張
 
 ## スクリーンショット
 
-<img src="screenshots/top.webp" alt="トップページ" width="600" />
+<img src="screenshots/TOP.webp" alt="トップページ" width="600" />
 
 ## 主な機能
 
