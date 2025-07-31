@@ -33,14 +33,20 @@ export default function Home() {
 
   return (
     <div className="with-background">
-      <div id="top" className="mx-auto max-w-[1340px] with-background py-25 px-30">
+      <div id="top" className="mx-auto max-w-[1340px] with-background pt-25 pb-50 px-20 lg:px-30">
         {/* ▼ ロゴ画像 */}
         <div className="flex justify-center mb-25">
-          <img
-            src="/images/title.webp"
-            alt="Your Menu"
-            className="w-[640px] h-auto object-contain"
-          />
+          <picture>
+            {/* 640px未満 */}
+            <source srcSet="/images/title-sp.webp" media="(max-width: 639px)" />
+            {/* デフォルト（640px以上） */}
+            <img
+              src="/images/title.webp"
+              alt="Your Menu"
+              className="w-[640px] h-auto object-contain mx-auto"
+            />
+          </picture>
+
         </div>
         {/* フィルターUI */}
         <div className="flex flex-col sm:flex-row sm:items-end gap-7 mb-25">
