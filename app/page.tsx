@@ -33,9 +33,9 @@ export default function Home() {
 
   return (
     <div className="with-background">
-      <div id="top" className="mx-auto max-w-[1340px] with-background pt-25 pb-50 px-10 lg:px-30">
+      <div id="top" className="mx-auto max-w-[1340px] with-background pt-15 lg:pt-25 pb-50 px-10 lg:px-30">
         {/* ▼ ロゴ画像 */}
-        <div className="flex justify-center mb-20 lg:mb-25">
+        <div className="flex justify-center mb-15 lg:mb-25">
           <picture>
             {/* 640px未満 */}
             <source srcSet="/images/title-sp.webp" media="(max-width: 639px)" />
