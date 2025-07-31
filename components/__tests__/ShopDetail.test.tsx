@@ -1,5 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import ShopDetail from '@/app/shop/[id]/page';
+import * as nextNavigation from 'next/navigation';
 
 jest.mock('next/navigation', () => ({
   useRouter: () => ({
@@ -24,7 +25,7 @@ describe('ShopDetail', () => {
 
   it('「一覧に戻る」ボタンが動作する', () => {
     const mockPush = jest.fn();
-    jest.spyOn(require('next/navigation'), 'useRouter').mockReturnValue({ push: mockPush });
+    jest.spyOn(nextNavigation, 'useRouter').mockReturnValue({ push: mockPush });
     
     render(<ShopDetail />);
     const backButton = screen.getByRole('button', { name: /一覧に戻る/i });
@@ -34,7 +35,7 @@ describe('ShopDetail', () => {
   });
 
   it('お店が見つからない場合の表示', () => {
-    jest.spyOn(require('next/navigation'), 'useParams').mockReturnValue({ id: '999' });
+    jest.spyOn(nextNavigation, 'useParams').mockReturnValue({ id: '999' });
     render(<ShopDetail />);
     
     expect(screen.getByText('お店が見つかりません')).toBeInTheDocument();
