@@ -1,6 +1,6 @@
 # gourmet-app
 
-Next.js と Tailwind CSS で構築した、シンプルな飲食店レビューアプリ「Your Menu」
+Next.js と Tailwind CSS で構築した、シンプルなグルメ情報共有アプリ「Your Menu」
 React や TypeScript を学びながら、機能・UI・UX を少しずつ拡張中です。
 
 ## スクリーンショット
