@@ -3,6 +3,10 @@
 Next.js と Tailwind CSS で構築した、シンプルな飲食店レビューアプリ「Your Menu」
 React や TypeScript を学びながら、機能・UI・UX を少しずつ拡張中です。
 
+## スクリーンショット
+
+<img src="screenshots/top.webp" alt="トップページ" width="600" />
+
 ## 主な機能
 
 - 飲食店一覧表示（JSON データを元に表示）
