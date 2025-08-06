@@ -2,13 +2,44 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import shops from '../src/data/shops.json';
 import ShopCard from '@/components/ShopCard';
 
 export default function Home() {
+  const [shops, setShops] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [searchKeyword, setSearchKeyword] = useState('');
   const [selectedArea, setSelectedArea] = useState('すべて');
   const [selectedGenre, setSelectedGenre] = useState('すべて');
+  const [showTopButton, setShowTopButton] = useState(false);
+  
+  console.log('API URL:', process.env.NEXT_PUBLIC_API_URL);
+  
+  useEffect(() => {
+    async function fetchShops() {
+      setLoading(true);
+      try {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/posts`);
+        if (!res.ok) throw new Error('Failed to fetch');
+        const data = await res.json();
+        setShops(data);
+      } catch (e) {
+        console.error(e);
+        setShops([]);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchShops();
+  }, []);  
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowTopButton(window.scrollY > 100);
+    };
+  
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);  
 
   const areas = ['すべて', ...new Set(shops.map((shop) => shop.area))];
   const genres = ['すべて', ...new Set(shops.map((shop) => shop.genre))];
@@ -20,16 +51,9 @@ export default function Home() {
     return matchArea && matchGenre && matchKeyword;
   });
 
-  const [showTopButton, setShowTopButton] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setShowTopButton(window.scrollY > 100);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  if (loading) {
+    return <p>読み込み中...</p>;
+  }
 
   return (
     <div className="with-background">
@@ -134,8 +158,6 @@ export default function Home() {
             className="w-20 h-20 object-contain"
           />
         </Link>
-
-
 
       </div>
     </div>

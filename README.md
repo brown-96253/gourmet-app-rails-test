@@ -1,7 +1,7 @@
 # gourmet-app
 
 Next.js と Tailwind CSS で構築した、シンプルなグルメ情報共有アプリ「Your Menu」
-React や TypeScript を学びながら、機能・UI・UX を少しずつ拡張中です。
+React と TypeScript の理解を深めながら、機能やUI・UXを段階的に改善中です。
 
 ## スクリーンショット
 
@@ -9,7 +9,7 @@ React や TypeScript を学びながら、機能・UI・UX を少しずつ拡張
 
 ## 主な機能
 
-- 飲食店一覧表示（JSON データを元に表示）
+- 飲食店一覧表示（Rails API から動的に取得した JSON データを元に表示）
 - 店舗詳細ページ（App Routerによる動的ルーティング）
 - Tailwind CSSによるレスポンシブデザイン調整
 - エリア・ジャンル・店舗名による検索・フィルター機能
@@ -24,10 +24,10 @@ React や TypeScript を学びながら、機能・UI・UX を少しずつ拡張
 - TypeScript
 - Tailwind CSS
 - Git / GitHub
+- Rails API（PostgreSQL）
 
 ## 今後の予定
 
-- shops.json を SQLite に置き換え、サーバーサイドで動的にデータを取得する構成へ移行
 - お気に入り登録したアイテムのみを表示する機能の実装
 - アクセシビリティの改善
 - デザイン調整
