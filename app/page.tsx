@@ -4,8 +4,15 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import ShopCard from '@/components/ShopCard';
 
+type Shop = {
+  id: string;
+  name: string;
+  area: string;
+  genre: string;
+};
+
 export default function Home() {
-  const [shops, setShops] = useState([]);
+  const [shops, setShops] = useState<Shop[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchKeyword, setSearchKeyword] = useState('');
   const [selectedArea, setSelectedArea] = useState('すべて');
