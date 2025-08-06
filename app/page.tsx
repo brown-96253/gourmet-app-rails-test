@@ -5,10 +5,14 @@ import Link from 'next/link';
 import ShopCard from '@/components/ShopCard';
 
 type Shop = {
-  id: string;
+  id: number;
   name: string;
-  area: string;
   genre: string;
+  rating: number;
+  address: string;
+  image: string;
+  description: string;
+  area: string;
 };
 
 export default function Home() {
