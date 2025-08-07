@@ -40,6 +40,7 @@ React と TypeScript を活用しながら、フルスタック開発および�
 ```bash
 git clone https://github.com/brown-96253/gourmet-app-rails-test.git
 cd gourmet-app-rails-test
+```
 
 ### 2. 依存パッケージをインストール
 ```bash
@@ -50,3 +51,11 @@ npm install
 ```bash
 npm run dev
 ```
+
+### 4. APIの接続先を設定（`.env` ファイルを作成）
+
+ルートディレクトリに `.env` ファイルを作成し、以下を記入してください：
+```env
+NEXT_PUBLIC_API_URL=http://localhost:3001
+```
+ポート番号はバックエンドの起動時のポートに合わせて変更してください。
