@@ -3,6 +3,11 @@
 Next.js と Rails API で構築した、シンプルなグルメ情報共有アプリ「Your Menu」
 React と TypeScript を活用しながら、フルスタック開発およびフロントエンドとバックエンドの連携を学習中です。
 
+## リポジトリ構成について
+
+本プロジェクトのフロントエンドは、別リポジトリで管理されているバックエンドAPIサーバーと連携しています。  
+バックエンドのリポジトリはこちらです → https://github.com/brown-96253/rails-backend-app
+
 ## スクリーンショット
 
 <img src="screenshots/TOP.webp" alt="トップページ" width="600" />
@@ -24,41 +29,24 @@ React と TypeScript を活用しながら、フルスタック開発および�
 - TypeScript
 - Tailwind CSS
 
-### バックエンド
-- Ruby on Rails（API モード）
-- PostgreSQL
-
-### デプロイ・その他
-- Railway（フロントエンド・バックエンド両方）
-- Git / GitHub
-
-## アーキテクチャ構成
-
-- **フロントエンド**: `https://gourmet-app-rails-test-production.up.railway.app`
-- **バックエンドAPI**: `https://web-production-869b6.up.railway.app/api/posts`
-- **CORS設定**: フロントエンドからのAPI アクセスを許可
-- **データベース**: PostgreSQL（Railway提供）
-
 ## 今後の予定
-
 - テストコードの改善
-
 - お気に入り機能のブラッシュアップ（localStorageの活用）
 - アクセシビリティの改善
 
-## 起動方法
+## 起動方法（ローカル環境）
 
-### フロントエンド（ローカル開発）
+### 1. このリポジトリをダウンロードまたはクローンしてください
 ```bash
-cd frontend
+git clone https://github.com/brown-96253/gourmet-app-rails-test.git
+cd gourmet-app-rails-test
+
+### 2. 依存パッケージをインストール
+```bash
 npm install
-npm run dev
 ```
 
-### バックエンド（ローカル開発）
+### 3. 開発サーバーを起動
 ```bash
-cd rails-backend-app
-bundle install
-rails db:create db:migrate db:seed
-rails server
+npm run dev
 ```

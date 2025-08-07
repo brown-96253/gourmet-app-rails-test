@@ -29,7 +29,7 @@ export default function Home() {
     async function fetchShops() {
       setLoading(true);
       try {
-        const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
         console.log('Fetching from:', `${apiUrl}/api/posts`);
         
         const res = await fetch(`${apiUrl}/api/posts`, {

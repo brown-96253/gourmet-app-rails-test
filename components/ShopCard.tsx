@@ -35,21 +35,23 @@ export default function ShopCard({
     const shouldShowTape = index % 4 === 0;
 
     if (shouldShowTape) {
-      const randomIndex = Math.floor(Math.random() * tapes.length);
-      setTapeSrc(tapes[randomIndex]);
+      const deterministicIndex = shop.id % tapes.length;
+      setTapeSrc(tapes[deterministicIndex]);
     }
 
-    const stored = localStorage.getItem("favorites");
-    if (stored) {
-      const favIds = JSON.parse(stored);
-      setIsFavorite(favIds.includes(shop.id));
+    if (typeof window !== 'undefined') {
+      const stored = localStorage.getItem("favorites");
+      if (stored) {
+        const favIds = JSON.parse(stored);
+        setIsFavorite(favIds.includes(shop.id));
+      }
     }
   }, [shop.id, index]);
 
 
-
   const toggleFavorite = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
+    if (typeof window === 'undefined') return;
     const stored = localStorage.getItem("favorites");
     const favIds = stored ? JSON.parse(stored) : [];
 
