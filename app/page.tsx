@@ -29,19 +29,34 @@ export default function Home() {
     async function fetchShops() {
       setLoading(true);
       try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/posts`);
-        if (!res.ok) throw new Error('Failed to fetch');
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+        console.log('Fetching from:', `${apiUrl}/api/posts`);
+        
+        const res = await fetch(`${apiUrl}/api/posts`, {
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+          },
+        });
+        
+        console.log('Response status:', res.status);
+        
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        
         const data = await res.json();
+        console.log('Fetched data:', data);
         setShops(data);
       } catch (e) {
-        console.error(e);
+        console.error('Fetch error:', e);
         setShops([]);
       } finally {
         setLoading(false);
       }
     }
     fetchShops();
-  }, []);  
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
