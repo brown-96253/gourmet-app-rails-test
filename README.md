@@ -3,6 +3,9 @@
 Next.js と Rails API で構築した、シンプルなグルメ情報共有アプリ「Your Menu」
 React と TypeScript を活用しながら、フルスタック開発およびフロントエンドとバックエンドの連携を学習中です。
 
+**デプロイ済みデモ（本番環境）**
+https://gourmet-app-rails-test-production.up.railway.app/
+
 ## リポジトリ構成について
 
 本プロジェクトのフロントエンドは、別リポジトリで管理されているバックエンドAPIサーバーと連携しています。  
